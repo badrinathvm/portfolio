@@ -115,5 +115,23 @@ export const blogs = [
     readTime: "5 min read",
     tags: ["iOS", "Swift"],
     url: "https://badrinathvm.medium.com/unit-testing-swift-quick-nimble-eb3c98556423"
+  },
+  {
+    id: 14,
+    title: "StepperView - SwiftUI Component",
+    excerpt: "A beautiful, customizable stepper component for SwiftUI with various styling options and animations.",
+    date: "2024-01-29",
+    readTime: "3 min read",
+    tags: ["SwiftUI", "iOS", "Open Source"],
+    url: "https://badrinathvm.github.io/StepperView/"
+  },
+  {
+    id: 15,
+    title: "StackCardView - SwiftUI Card Stack Component",
+    excerpt: "An elegant card stack component for SwiftUI that provides smooth animations and gesture interactions.",
+    date: "2024-01-31",
+    readTime: "3 min read",
+    tags: ["SwiftUI", "iOS", "Open Source"],
+    url: "https://github.com/badrinathvm/StackCardView"
   }
 ]
