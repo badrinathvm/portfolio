@@ -3,6 +3,22 @@ import React from 'react';
 const BlogCard = ({ blog }) => {
   return (
     <article className="bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300 overflow-hidden">
+      {blog.thumbnail && (
+        <div className="h-48 overflow-hidden bg-gray-100">
+          <img
+            src={blog.thumbnail}
+            alt={blog.title}
+            className="w-full h-full object-cover"
+            onError={(e) => {
+              console.log('Image failed to load:', blog.thumbnail);
+              e.target.style.display = 'none';
+            }}
+            onLoad={() => {
+              console.log('Image loaded successfully:', blog.thumbnail);
+            }}
+          />
+        </div>
+      )}
       <div className="p-6">
         <div className="flex items-center justify-between text-sm text-gray-500 mb-3">
           <time dateTime={blog.date}>

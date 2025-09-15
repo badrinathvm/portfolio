@@ -110,10 +110,10 @@ export const blogs = [
   {
     id: 13,
     title: "Swift Unit Testing ( Quick & Nimble )",
-    excerpt: "",
+    excerpt: "A comprehensive guide to implementing effective unit testing in Swift using the Quick behavior-driven development framework and Nimble matcher library for clean, readable test code.",
     date: "2017-10-14",
     readTime: "5 min read",
-    tags: ["iOS", "Swift"],
+    tags: ["iOS", "Swift", "Testing"],
     url: "https://badrinathvm.medium.com/unit-testing-swift-quick-nimble-eb3c98556423"
   },
   {
@@ -123,7 +123,8 @@ export const blogs = [
     date: "2024-01-29",
     readTime: "3 min read",
     tags: ["SwiftUI", "iOS", "Open Source"],
-    url: "https://badrinathvm.github.io/StepperView/"
+    url: "https://badrinathvm.github.io/StepperView/",
+    thumbnail: "https://raw.githubusercontent.com/badrinathvm/StepperView/master/images/structure.png"
   },
   {
     id: 15,
@@ -132,6 +133,7 @@ export const blogs = [
     date: "2024-01-31",
     readTime: "3 min read",
     tags: ["SwiftUI", "iOS", "Open Source"],
-    url: "https://github.com/badrinathvm/StackCardView"
+    url: "https://github.com/badrinathvm/StackCardView",
+    thumbnail: "https://raw.githubusercontent.com/badrinathvm/StackCardView/master/images/StackCardView.gif"
   }
 ]
