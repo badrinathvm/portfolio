@@ -40,15 +40,37 @@ This is a React + Vite portfolio application with the following structure:
 - `AboutTab` - Personal information and experience
 - `BlogCard` - Individual blog post display
 
-## Getting Started
+## Deployment
 
-When working on this portfolio:
+This portfolio is ready for deployment with the following steps:
 
-1. Confirm technology stack preferences with the user
-2. Set up project structure and dependencies
-3. Configure development tools and workflows
-4. Implement responsive design patterns
-5. Optimize for performance and accessibility
+### Local Development
+1. `npm install` - Install dependencies
+2. `npm run dev` - Start development server
+3. `npm run build` - Build for production
+4. `npm run preview` - Preview production build
 
-- I need to have two tabs, Fierst tab will have the list of blogs and second tab will have the About section. Ulthra think and suggest some good templates to do this.
+### Deploy to Production
+1. **Vercel (Recommended)**:
+   - Connect GitHub repo to Vercel
+   - Auto-deploys on every push
+   - Framework preset: Vite
+
+2. **Netlify Alternative**:
+   - Drag & drop `dist` folder
+   - Or connect GitHub repo
+
+### Custom Domain Setup
+1. Purchase domain from Namecheap/Cloudflare ($8-15/year)
+2. Add domain in deployment platform settings
+3. Update DNS records as instructed
+4. SSL certificate auto-generated
+
+## Portfolio Content
+
+The portfolio features:
+- **Blogs Tab**: 13+ technical articles covering iOS, Swift, AI/ML, and MCP
+- **About Tab**: Professional profile with skills and experience
+- **Responsive Design**: Works on all devices
+- **External Links**: Direct links to Substack and Medium articles
 - i need to make it available to everyone and need a domain , what are the steps i need to do?
