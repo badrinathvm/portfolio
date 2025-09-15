@@ -2,29 +2,29 @@ import React from 'react';
 
 const AboutTab = () => {
   const skills = [
-    { category: 'Frontend', items: ['React', 'JavaScript', 'TypeScript', 'HTML/CSS', 'Tailwind CSS'] },
-    { category: 'Backend', items: ['Node.js', 'Express', 'Python', 'PostgreSQL', 'MongoDB'] },
-    { category: 'Tools', items: ['Git', 'VS Code', 'Figma', 'Docker', 'AWS'] }
+    { category: 'iOS Development', items: ['Swift', 'SwiftUI', 'UIKit', 'Xcode', 'iOS SDK', 'Swift MLX'] },
+    { category: 'AI & ML', items: ['Python', 'LangChain', 'LangGraph', 'RAG', 'MLX', 'Model Context Protocol'] },
+    { category: 'Tools & Platforms', items: ['Git', 'Xcode', 'VS Code', 'Cocoapods', 'GitHub Actions'] }
   ];
 
   const experiences = [
     {
-      title: 'Frontend Developer',
-      company: 'Tech Company',
-      period: '2022 - Present',
-      description: 'Building responsive web applications using React and modern JavaScript frameworks.'
+      title: 'Senior Staff Software Engineer',
+      company: 'Intuit',
+      period: '2019 - Present',
+      description: 'Leading iOS mobile development for QuickBooks Mobile, integrating AI-powered features like Intuit Assist. Developing innovative voice and AI technologies, contributing to open-source projects like CardParts, and building cutting-edge mobile applications.'
     },
     {
-      title: 'Web Developer',
-      company: 'Digital Agency',
-      period: '2020 - 2022',
-      description: 'Developed custom websites and web applications for various clients.'
+      title: 'iOS Developer',
+      company: 'Previous Tech Companies',
+      period: '2016 - 2019',
+      description: 'Specialized in native iOS application development using Swift and Objective-C. Built multiple mobile apps including Cryptographer and Effective To Do, focusing on user experience and performance optimization.'
     },
     {
-      title: 'Junior Developer',
-      company: 'Startup Inc.',
-      period: '2019 - 2020',
-      description: 'Started my career working on full-stack development projects.'
+      title: 'Software Engineer',
+      company: 'Infosys',
+      period: '2014 - 2016',
+      description: 'Started career in software development with focus on mobile technologies. Received "Rookie of the Year" award in 2014 for exceptional performance and contribution to innovative projects.'
     }
   ];
 
@@ -34,15 +34,15 @@ const AboutTab = () => {
       <div className="text-center mb-12">
         <div className="mb-6">
           <img
-            src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&h=150&fit=crop&crop=face&auto=format"
-            alt="Profile"
+            src="https://media.licdn.com/dms/image/v2/C5603AQELigE0NUqgIQ/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1517437895998?e=2147483647&v=beta&t=yhFRAc8__Y5_bqFHz6iEQXzwr0abURyYSDZ7tXYil5Q"
+            alt="Badarinath Venkatnarayansetty Profile"
             className="w-32 h-32 rounded-full mx-auto object-cover border-4 border-white shadow-lg"
           />
         </div>
-        <h1 className="text-4xl font-bold text-gray-900 mb-4">Hi, I'm John Doe</h1>
+        <h1 className="text-4xl font-bold text-gray-900 mb-4">Hi, I'm Badarinath</h1>
         <p className="text-xl text-gray-600 max-w-2xl mx-auto leading-relaxed">
-          A passionate full-stack developer who loves creating beautiful, functional, and user-friendly applications.
-          I enjoy turning complex problems into simple, beautiful designs.
+          A passionate iOS developer and AI engineer who specializes in creating innovative mobile applications with cutting-edge AI integration.
+          I love building on-device machine learning solutions and exploring the intersection of Swift development with modern AI frameworks.
         </p>
       </div>
 
@@ -88,28 +88,29 @@ const AboutTab = () => {
         <h2 className="text-2xl font-bold text-gray-900 mb-6 text-center">Let's Connect</h2>
         <div className="flex flex-wrap justify-center gap-6">
           <a
-            href="mailto:john@example.com"
-            className="flex items-center space-x-2 text-gray-700 hover:text-blue-600 transition-colors"
-          >
-            <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
-              <path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z"></path>
-              <path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z"></path>
-            </svg>
-            <span>john@example.com</span>
-          </a>
-          <a
-            href="https://linkedin.com/in/johndoe"
+            href="https://badarinath.substack.com"
             target="_blank"
             rel="noopener noreferrer"
             className="flex items-center space-x-2 text-gray-700 hover:text-blue-600 transition-colors"
           >
-            <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
-              <path fillRule="evenodd" d="M16.338 16.338H13.67V12.16c0-.995-.017-2.277-1.387-2.277-1.39 0-1.601 1.086-1.601 2.207v4.248H8.014v-8.59h2.559v1.174h.037c.356-.675 1.227-1.387 2.526-1.387 2.703 0 3.203 1.778 3.203 4.092v4.711zM5.005 6.575a1.548 1.548 0 11-.003-3.096 1.548 1.548 0 01.003 3.096zm-1.337 9.763H6.34v-8.59H3.667v8.59zM17.668 1H2.328C1.595 1 1 1.581 1 2.298v15.403C1 18.418 1.595 19 2.328 19h15.34c.734 0 1.332-.582 1.332-1.299V2.298C19 1.581 18.402 1 17.668 1z" clipRule="evenodd"></path>
+            <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+              <path d="M22.539 8.242H1.46V5.406h21.08v2.836zM1.46 10.812V24L12 18.11 22.54 24V10.812H1.46zM22.54 0H1.46v2.836h21.08V0z"/>
             </svg>
-            <span>LinkedIn</span>
+            <span>Substack</span>
           </a>
           <a
-            href="https://github.com/johndoe"
+            href="https://badrinathvm.medium.com"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex items-center space-x-2 text-gray-700 hover:text-blue-600 transition-colors"
+          >
+            <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+              <path d="M13.54 12a6.8 6.8 0 01-6.77 6.82A6.8 6.8 0 010 12a6.8 6.8 0 016.77-6.82A6.8 6.8 0 0113.54 12zM20.96 12c0 3.54-1.51 6.42-3.38 6.42-1.87 0-3.39-2.88-3.39-6.42s1.52-6.42 3.39-6.42 3.38 2.88 3.38 6.42M24 12c0 3.17-.53 5.75-1.19 5.75-.66 0-1.19-2.58-1.19-5.75s.53-5.75 1.19-5.75C23.47 6.25 24 8.83 24 12z"/>
+            </svg>
+            <span>Medium</span>
+          </a>
+          <a
+            href="https://github.com/badrinathvm"
             target="_blank"
             rel="noopener noreferrer"
             className="flex items-center space-x-2 text-gray-700 hover:text-blue-600 transition-colors"

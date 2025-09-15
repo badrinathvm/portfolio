@@ -22,7 +22,7 @@ const BlogsTab = () => {
       <div className="text-center mb-8">
         <h1 className="text-3xl font-bold text-gray-900 mb-4">Blog Posts</h1>
         <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-          Explore my thoughts on web development, technology, and programming best practices.
+          Explore my insights on iOS development, AI integration, Swift programming, and cutting-edge mobile technologies.
         </p>
       </div>
 
